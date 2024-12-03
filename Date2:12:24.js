@@ -77,3 +77,21 @@ arr.shift()
 
 arr.splice(3,3)
 console.log(arr)
+
+9. //Object
+var a = {name: "Akshat", age: "Gulati"}
+
+console.log(a);
+
+
+10. //Props vs methods
+
+var me = {
+    name: "Akshat",
+    age: 22,
+    anything: function () {} //anyting is a method
+}
+
+me.name =  "Akshat Gulati"
+
+console.log(me);
