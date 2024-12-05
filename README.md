@@ -7,6 +7,8 @@ Date: 3/12/24
 Topics Covered:
 var let differences, Browser context API, Stack and Heap memory, Execution context, lexical environment, copying reference value, Truthy and Falsy, Switch case, foreach, forin, do-while, Callback function, First class function, Array implementation, deleting object prop
 
-Date: 4/12/24
+Date: 4/12/24: UC1 - UC5 -> Employee Wage
+
+Date: 5/12/24
 Topics Covered:
 Higher order function, Constructor function, first class function, new keyword, iife, prototype, prototypal inheritance, this call apply bind, pure and impure functions, closures
