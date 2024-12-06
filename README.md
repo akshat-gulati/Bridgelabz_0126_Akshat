@@ -12,3 +12,10 @@ Date: 4/12/24: UC1 - UC5 -> Employee Wage
 Date: 5/12/24
 Topics Covered:
 Higher order function, Constructor function, first class function, new keyword, iife, prototype, prototypal inheritance, this call apply bind, pure and impure functions, closures
+
+Date: 6/12/24
+Topics Covered:
+filter, map, reduce, arrow function, Map and set, Destructuring assignment
+
+
+<!-- constructor, super, class, extend -->
