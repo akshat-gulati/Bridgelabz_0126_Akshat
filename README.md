@@ -13,5 +13,9 @@ Date: 5/12/24
 Topics Covered:
 Higher order function, Constructor function, first class function, new keyword, iife, prototype, prototypal inheritance, this call apply bind, pure and impure functions, closures
 
+Date: 6/12/24
+Topics Covered:
+filter, map, reduce, arrow function, Map and set, Destructuring assignment, OOP
+
 Date: 9/12/24:
 Topics: String reverse, String methods, array methods, Max and min in array, separate negative and positive in array, find sum, union, intersection
