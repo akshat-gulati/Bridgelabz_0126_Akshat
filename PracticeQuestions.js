@@ -258,3 +258,45 @@ function pairs(arr, target) {
 }
 
 console.log(pairs(arr, target));
+
+// Find Common Elements in Three Sorted Arrays
+
+function commonElements(a, b, c) {
+    let common = [];
+    let setA = new Set(a);
+    let setB = new Set(b);
+
+    for (let i = 0; i < c.length; i++) {
+        if (setA.has(c[i]) && setB.has(c[i])) {
+            common.push(c[i]);
+        }
+    }
+    return common;
+}
+
+let A = [1, 5, 10, 20, 30];
+let B = [5, 13, 15, 20];
+let C = [5, 20];
+
+console.log(commonElements(A, B, C)); // Output: [5, 20]
+
+// Find the First Non-Repeating Element in a Given Array of Integers
+
+function non_repeating(arr) {
+    const count = new Map();
+
+    for (let num of arr) {
+        count.set(num, (count.get(num) || 0) + 1);
+    }
+
+    for (let num of arr) {
+        if (count.get(num) === 1) {
+            return num;
+        }
+    }
+
+    return null;
+}
+
+arr = [-1, 2, -1, 3, 0];
+console.log(non_repeating(arr)); 
