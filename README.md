@@ -19,3 +19,7 @@ filter, map, reduce, arrow function, Map and set, Destructuring assignment, OOP
 
 Date: 9/12/24:
 Topics: String reverse, String methods, array methods, Max and min in array, separate negative and positive in array, find sum, union, intersection
+
+
+Date: 10/12/24
+Topics: Cyclically Rotate an Array by One, Duplicates in an Array, Find the Occurrence of an Integer, Sort the Array of 0s, 1s, and 2s, Move All the Negative Elements to One Side of the Array, Find the Row with a Maximum Number of 1’s, Majority Element, Wave Array
