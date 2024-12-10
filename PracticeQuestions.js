@@ -203,7 +203,58 @@ arr = [15, 2, 4, 8, 9, 5, 10, 23];
 let sum = 23;
 let result = subarraySum(arr, sum);
 
+result.left ++
+result.right ++
+console.log("Left Index: " + result.left);
+console.log("Right Index: " + result.right);
 
-console.log(result.left);
-console.log(result.right);
+// Find Whether an Array is a Subset of Another
+function subsetCheck(arr1, arr2) {
+    let set = new Set(arr1);
+    for (let elem of arr2) {
+        if (!set.has(elem)) {
+            return false;
+        }
+    }
+    return true;
+}
 
+let arr1 = [11, 1, 13, 21, 3, 7];
+let arr2 = [11, 3, 7, 1,2];
+
+console.log(subsetCheck(arr1, arr2));
+
+// Find the Missing Integer
+
+function missing(arr, n) {
+    
+    set = new Set(arr)
+
+    for(let i =1; i<=n; i++){
+        if(! set.has(i)){
+            return i
+        }
+    }
+}
+
+arr = [1, 2, 4, 6, 3, 7, 8] , n = 8
+console.log(missing(arr, n));
+
+
+// Count Pairs with the Given Sum
+
+arr = [1, 5, 7, -1, 5]
+target = 6
+
+function pairs(arr, target) {
+    let count = 0
+    set = new Set(arr)
+    for(let i =1; i<arr.length; i++){
+        if (set.has(target-arr[i])) {
+            count++
+        }
+    }
+    return count
+}
+
+console.log(pairs(arr, target));
