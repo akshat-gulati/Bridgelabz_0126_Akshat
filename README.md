@@ -23,3 +23,11 @@ Topics: String reverse, String methods, array methods, Max and min in array, sep
 
 Date: 10/12/24
 Topics: Cyclically Rotate an Array by One, Duplicates in an Array, Find the Occurrence of an Integer, Sort the Array of 0s, 1s, and 2s, Move All the Negative Elements to One Side of the Array, Find the Row with a Maximum Number of 1’s, Majority Element, Wave Array, Peak Element in Array, Subarray with Given Sum, Array is a Subset of Another, Missing Integer, Count Pairs with the Given Sum, Common Elements in Three Sorted Arrays, First Non-Repeating Element in a Given Array of Integers
+
+Date: 11/12/24
+Topics:
+Array:
+Traversal (for loop, for ...of loop, for ...in loop, forEach, map, while, do while, reduce, filter, every, some, spread), 
+insertion (Push, unshift, concat, splice, spread)
+searching (indexof, lastindexof, includes, find, findindex, filter, some, every)
+Deletion (splice, pop, shift, filter, slice, delete)
